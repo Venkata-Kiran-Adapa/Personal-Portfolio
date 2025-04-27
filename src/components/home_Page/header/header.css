@@ -23,6 +23,7 @@ nav ul li:hover{
     text-decoration:overline;
     color: gold;
     transform: scale3d(1.1);
+    cursor: pointer;
 }
 
 

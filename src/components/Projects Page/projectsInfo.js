@@ -30,7 +30,7 @@ const projects = [
   },
   {
     name: "Pack-O-Saurus",
-    image: "pack.png",
+    image: "Pack.png",
     description:
       "A React app to help users organize and track essential items for a trip. It allows adding, editing, and marking items as packed to ensure nothing is forgotten.",
     link: "https://github.com/Venkata-Kiran-Adapa/Pack-O-Saurus",
