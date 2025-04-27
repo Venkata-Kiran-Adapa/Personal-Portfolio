@@ -1,4 +1,5 @@
 import "./projectsinfo.css";
+import {FaGithub } from "react-icons/fa";
 const projects = [
   {
     name: "Task Manager",
@@ -99,8 +100,9 @@ function ProjectInfo() {
           <div className="card-body">
             <h5 className="card-title">{project.name}</h5>
             <p className="card-text fw-light">{project.description}</p>
-            <a href={project.link} className="btn btn-primary">
-              GitHub Link
+            <a href={project.link} className="btn btn-black text-bg-black bg-gradient bg-opacity-75 text-white" >
+            <FaGithub />
+            <span style={{margin:'0px 2px'}}> View</span>
             </a>
           </div>
         </div>
