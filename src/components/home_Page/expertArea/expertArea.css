@@ -1,0 +1,180 @@
+.skills-container {
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: black;
+  text-align: center;
+  color: whitesmoke;
+  width: 100%;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.skill-card {
+  border-radius: 10px;
+  padding: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  box-shadow: 0 0 12px rgb(237, 236, 236);
+}
+
+.icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.java {
+  color: #e76f00;
+}
+.python {
+  color: #3572a5;
+  animation: spin 8s linear infinite;
+}
+.react {
+  color: #61dafb;
+  animation: spin 8s linear infinite;
+}
+.javascript {
+  color: #f7df1e;
+}
+.typescript,
+.sql {
+  color: #3178c6;
+}
+.node {
+  color: #3c873a;
+}
+.dsa {
+  color: orange;
+}
+.express {
+  color: #444;
+}
+.api {
+  color: #ff9900;
+}
+
+.jwt {
+  color: #0a66c2;
+}
+
+.ml {
+  color: #ff6f00;
+}
+
+.sdlc {
+  color: #6a0dad;
+}
+
+.c {
+  color: #5555aa;
+}
+
+.mysql {
+  color: #00758f;
+}
+
+.html,
+.github {
+  color: #e34c26;
+}
+
+.css {
+  color: #264de4;
+}
+
+.bootstrap {
+  color: #7952b3;
+}
+
+.typescript {
+  color: #3178c6;
+}
+
+.vscode {
+  color: #007acc;
+}
+
+.postman {
+  color: #ff6c37;
+}
+
+.intellij {
+  color: #dd1e1e;
+}
+
+.aws {
+  color: #ff9900;
+}
+
+.git {
+  color: #f05030;
+}
+
+.mongodb {
+  color: green;
+}
+.skill-name {
+  font-size: 16px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .skills-container {
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+  }
+  .skills-grid {
+    gap: 2px;
+  }
+  .skill-card {
+    padding: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .skills-grid {
+    gap: 1px;
+  }
+  .skill-card {
+    padding: 1.5px;
+  }
+}
+
+@media (max-width: 599px) {
+  .skills-container {
+    padding: 10px;
+  }
+  .stickyeffect .profileCard {
+    padding: 10px;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+  .skill-card {
+    padding: 10px;
+  }
+  
+}

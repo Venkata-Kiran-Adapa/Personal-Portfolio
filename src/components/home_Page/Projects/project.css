@@ -1,0 +1,30 @@
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-height: 1050px;
+  background-color: black;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.links {
+  width: 100%;
+}
+
+.scrollable-cards {
+  animation: scroll 15s linear 0s infinite;
+}
+.card {
+  margin: 20px 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .project-container {
+    padding: 20px;
+    width:100%
+  }
+ 
+}

@@ -1,0 +1,48 @@
+.projects-container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap:1em;
+}
+
+.card{
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px;
+    width: 22rem;
+}
+
+.card:hover{
+    transition: 0.3s linear;
+    transform: scale(1.18);
+}
+
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .projects-container{
+        gap:0.5em;
+    }
+    .card{
+       width: 18rem;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .card{
+        width: 12.5rem;
+        font-size: small;
+     }
+   
+  }
+  @media (max-width: 599px) {
+    .projects-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .card{
+        margin: 5px;
+    }
+   
+  }

@@ -1,0 +1,39 @@
+.profileCard{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    background-color: black;
+    gap:1em;
+    height: fit-content;
+    border-radius: 15px;
+}
+.profileCard ul {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    list-style: none;
+    align-items: center;
+    gap:1em;
+    padding:unset;
+}
+
+.profileCard ul li:nth-child(2) {
+    color: cadetblue;
+}
+
+.profileCard ul li:nth-child(1) {
+    color: whitesmoke;
+    font-family: serif;
+}
+img{
+    width: 100%;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .profileCard{
+        padding: 15px;
+    }
+  }
