@@ -45,14 +45,14 @@ const projects = [
   },
   {
     name: "Movies API",
-    image: "movies-API.png",
+    image: "movies-APi.png",
     description:
       "Movies API is a backend application built with Node.js and Express.js that provides RESTful endpoints to fetch, add, update, and delete movie data. Designed for easy integration with front-end clients and supports JSON-based responses.",
     link: "https://github.com/Venkata-Kiran-Adapa/Movies-Api",
   },
   {
     name: "BankEase",
-    image: "bankEase.png",
+    image: "BankEase.png",
     description:
       "BankEase is a user-friendly banking app built with HTML, CSS, JavaScript, and TypeScript that simulates secure login, balance checks, fund transfers, loan requests, and auto log-out. Designed to enhance user experience with smooth interactions and complete account protection.",
     link: "https://github.com/Venkata-Kiran-Adapa/BankEase",
