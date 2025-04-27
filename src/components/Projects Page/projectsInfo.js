@@ -45,7 +45,7 @@ const projects = [
   },
   {
     name: "Movies API",
-    image: "movies-APi.png",
+    image: "movies-Api.png",
     description:
       "Movies API is a backend application built with Node.js and Express.js that provides RESTful endpoints to fetch, add, update, and delete movie data. Designed for easy integration with front-end clients and supports JSON-based responses.",
     link: "https://github.com/Venkata-Kiran-Adapa/Movies-Api",
